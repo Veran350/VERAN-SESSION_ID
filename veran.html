@@ -5,7 +5,6 @@
   <title>VERAN-TECH-HUB</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    /* General styles */
     body {
       margin: 0;
       padding: 0;
@@ -14,13 +13,12 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background: #000;
-      background-image: radial-gradient(circle at 50%, rgba(0, 255, 0, 0.1), rgba(0, 0, 0, 1));
+      background: url('https://files.catbox.moe/lgyb3d.jpeg') no-repeat center center fixed;
+      background-size: cover;
       color: white;
       overflow: hidden;
     }
 
-    /* Container for buttons */
     .button-container {
       display: flex;
       flex-direction: column;
@@ -37,7 +35,6 @@
       text-shadow: 0 0 10px #00FF00, 0 0 20px #00FF00;
     }
 
-    /* Neon Glass button styles */
     .btn {
       padding: 15px 30px;
       font-size: 18px;
@@ -69,17 +66,16 @@
     .btn:focus {
       outline: none;
     }
-
   </style>
 </head>
 <body>
   <div class="button-container">
-    <h1>VELORA_BOTWA<</h1>
+    <h1>VELORA_BOTWA</h1>
+    <button onclick="window.open(`/veranqr`)" class="btn">QR Code</button>
     <button onclick="window.open(`/pair`)" class="btn">Pair Code</button>
-    <button onclick="window.open(`https://github.com/Veran350/VELORA_BOTWA`)" class="btn">VELORA_BOTWA</button>
-    <button onclick="window.open(`https://github.com/Veran350/VELORA_BOTWA`)" class="btn">VELORA_BOTWA</button>
+    <button onclick="window.open(`https://github.com/Veran350/VELORA_BOTWA`)" class="btn">Source Code</button>
     <button onclick="window.open(`https://wa.me//2347082664317`)" class="btn">Contact Me</button>
-    <button onclick="window.open(`https://whatsapp.com/channel/0029VawCSKdElagoC3IJX52C`)" class="btn">Wa Channel</button>
+    <button onclick="window.open(`https://whatsapp.com/channel/0029VawCSKdElagoC3IJX52C`)" class="btn">WA Channel</button>
   </div>
 </body>
 </html>
