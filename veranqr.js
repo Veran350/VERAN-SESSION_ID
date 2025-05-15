@@ -59,19 +59,19 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id, { text: '' + b64data });
 	
 				   let WASI_MD_TEXT = `
-🟢 *Pair Code Connected by QUEEN-HENTAI* 
+🟢 *Pair Code Connected by VELORA_BOTWA* 
 💖 *Made With Love*
 
 ---
 
-> *🎉 WOW! YOU'VE CHOSEN QUEEN-HENTAI!*
+> *🎉 WOW! YOU'VE CHOSEN VELORA_BOTWA!*
 You're one step closer to deploying your WhatsApp Bot! 🎯
 
 ---
 
 > *Need Assistance? Here’s How You Can Reach Me:*
 - *Owner:* [My number](https://wa.me//2347082664317)  
-- *WhatsApp Channel:* [WaChannel](https://whatsapp.com/channel/0029VajIDgjDZ4LVnxfB1Z2s)
+- *WhatsApp Channel:* [WaChannel](https://whatsapp.com/channel/0029VawCSKdElagoC3IJX52C)
 
 ---
 
